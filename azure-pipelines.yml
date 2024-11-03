@@ -52,7 +52,7 @@ stages:
       vmImage: 'ubuntu-20.04'
     environment: 'Dev'
     variables:
-    - group: Release  
+    - group: Release
     steps:
     - task: AzureWebAppContainer@1
       inputs:
